@@ -1,6 +1,6 @@
 # dhokes
 
-A personal blog using [Jekyll](http://jekyllrb.com) and the [Hyde theme](http://hyde.getpoole.com/).
+A personal blog using [Jekyll](http://jekyllrb.com) and the [Hyde](http://hyde.getpoole.com/) theme.
 
 ## Author
 
