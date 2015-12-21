@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>dhokes</title>
+ <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
+ <link href="http://hyde.getpoole.com/"/>
+ <updated>2015-12-21T12:13:08+00:00</updated>
+ <id>http://hyde.getpoole.com</id>
+ <author>
+   <name>dhokes</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="http://hyde.getpoole.com/2015/12/21/hello-world/"/>
+   <updated>2015-12-21T00:00:00+00:00</updated>
+   <id>http://hyde.getpoole.com/2015/12/21/hello-world</id>
+   <content type="html">&lt;p&gt;Having spent just over a year in my first role as a software developer, specifically developing on Microsoft Dynamics CRM, I&amp;#39;ve realised that it&amp;#39;s not what I want to spend the rest of my life doing.&lt;/p&gt;
+
+&lt;p&gt;As a result, I&amp;#39;ve decided to devlop a web app &lt;strong&gt;ProjectX&lt;/strong&gt; (I&amp;#39;ll go into more details about this at a later date) using Ruby on Rails. The reason for this is threefold.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;I want to learn new skills such as Ruby, Rails and what it takes to create a web application from scratch, from idea to deployment.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I want to develop my existing skills in areas such as HTML, CSS, JavaScript and Git.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I&amp;#39;m passionate about the idea, which is around art.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Whilst on this journey of discovery, I thought I&amp;#39;d create a blog to share my experience with others.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
