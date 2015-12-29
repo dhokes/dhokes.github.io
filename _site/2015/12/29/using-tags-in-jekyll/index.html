@@ -11,7 +11,7 @@
 
   <title>
     
-      404: Page not found - dhokes
+      Using Tags in Jekyll - dhokes
     
   </title>
 
@@ -73,10 +73,60 @@
 
 
     <div class="content container">
-      <div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="/">Head back home</a> to try finding it again.</p>
+      <div class="post">
+  <h1 class="post-title">Using Tags in Jekyll</h1>
+  <span class="post-date">29/12/2015</span>
+  <p>After considering various options, I decided to host this blog using <a href="https://pages.github.com/">GitHub Pages</a>.  I found a theme called <a href="http://hyde.getpoole.com/">Hyde</a> that I liked so I thought I&#39;d use that rather than spending time designing something from scratch. At a later date, I might create my own.</p>
+
+<p>However, GitHub Pages only supports several Jekyll plugins and as a result, I&#39;ve had to create a solution to enable to me to add tags to posts.</p>
+
+<p>I can add tags to each post&#39;s YAML frontmatter:
+<pre>
+<code>
+layout: post
+title: Using Tags in Jekyll
+tags:
+- jekyll
+</code>
+</pre></p>
+
+<p>For each new tag I want to use, I create a simple html file like the following for file for the &#39;jekyll&#39; tag:</p>
+
+<p><code>/tags/jekyll/index.html</code></p>
+
+<p>This html file contains the following content:</p>
+
+<pre>
+<code>
+---
+layout: tagpage
+tag: jekyll
+---
+</code>
+</pre>
+
+
+  <i><b>tags: </b><span class="blog_post_categories"><a href="/tags/#jekyll">jekyll</a></span>
+  </i>
 </div>
+
+    <a class="pagination-item older" href="javascript:history.back()">Back</a>
+
+<!-- <div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2015/12/21/hello-world/">
+            Hello World
+            <small>21/12/2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div> -->
 
     </div>
 

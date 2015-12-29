@@ -4,13 +4,49 @@
  <title>dhokes</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2015-12-21T12:13:08+00:00</updated>
+ <updated>2015-12-29T18:48:35+00:00</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>dhokes</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Using Tags in Jekyll</title>
+   <link href="http://hyde.getpoole.com/2015/12/29/using-tags-in-jekyll/"/>
+   <updated>2015-12-29T00:00:00+00:00</updated>
+   <id>http://hyde.getpoole.com/2015/12/29/using-tags-in-jekyll</id>
+   <content type="html">&lt;p&gt;After considering various options, I decided to host this blog using &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.  I found a theme called &lt;a href=&quot;http://hyde.getpoole.com/&quot;&gt;Hyde&lt;/a&gt; that I liked so I thought I&amp;#39;d use that rather than spending time designing something from scratch. At a later date, I might create my own.&lt;/p&gt;
+
+&lt;p&gt;However, GitHub Pages only supports several Jekyll plugins and as a result, I&amp;#39;ve had to create a solution to enable to me to add tags to posts.&lt;/p&gt;
+
+&lt;p&gt;I can add tags to each post&amp;#39;s YAML frontmatter:
+&lt;pre&gt;
+&lt;code&gt;
+layout: post
+title: Using Tags in Jekyll
+tags:
+- jekyll
+&lt;/code&gt;
+&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;For each new tag I want to use, I create a simple html file like the following for file for the &amp;#39;jekyll&amp;#39; tag:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;/tags/jekyll/index.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This html file contains the following content:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code&gt;
+---
+layout: tagpage
+tag: jekyll
+---
+&lt;/code&gt;
+&lt;/pre&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Hello World</title>

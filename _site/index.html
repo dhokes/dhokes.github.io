@@ -27,6 +27,17 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70414302-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 
@@ -66,12 +77,56 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/2015/12/29/using-tags-in-jekyll/">
+        Using Tags in Jekyll
+      </a>
+    </h1>
+
+    <span class="post-date">29/12/2015</span>
+
+    <p>After considering various options, I decided to host this blog using <a href="https://pages.github.com/">GitHub Pages</a>.  I found a theme called <a href="http://hyde.getpoole.com/">Hyde</a> that I liked so I thought I&#39;d use that rather than spending time designing something from scratch. At a later date, I might create my own.</p>
+
+<p>However, GitHub Pages only supports several Jekyll plugins and as a result, I&#39;ve had to create a solution to enable to me to add tags to posts.</p>
+
+<p>I can add tags to each post&#39;s YAML frontmatter:
+<pre>
+<code>
+layout: post
+title: Using Tags in Jekyll
+tags:
+- jekyll
+</code>
+</pre></p>
+
+<p>For each new tag I want to use, I create a simple html file like the following for file for the &#39;jekyll&#39; tag:</p>
+
+<p><code>/tags/jekyll/index.html</code></p>
+
+<p>This html file contains the following content:</p>
+
+<pre>
+<code>
+---
+layout: tagpage
+tag: jekyll
+---
+</code>
+</pre>
+
+
+    <i><b>tags:</b><a href="">
+      <a href="/tags/#jekyll">jekyll</a>
+    </a></i>
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/2015/12/21/hello-world/">
         Hello World
       </a>
     </h1>
 
-    <span class="post-date">21 Dec 2015</span>
+    <span class="post-date">21/12/2015</span>
 
     <p>Having spent just over a year in my first role as a software developer, specifically developing on Microsoft Dynamics CRM, I&#39;ve realised that it&#39;s not what I want to spend the rest of my life doing.</p>
 
@@ -85,6 +140,10 @@
 
 <p>Whilst on this journey of discovery, I thought I&#39;d create a blog to share my experience with others.</p>
 
+
+    <i><b>tags:</b><a href="">
+      
+    </a></i>
   </div>
   
 </div>
